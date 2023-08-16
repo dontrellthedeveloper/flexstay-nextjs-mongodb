@@ -3,6 +3,7 @@
 import React, { useCallback, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Avatar from "../Avatar";
+import MenuItem from "./MenuItem";
 
 const UserMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,16 @@ const UserMenu = () => {
             top-12 
             text-sm
           "
-        ></div>
+        >
+          <div className="flex flex-col cursor-pointer">
+            <>
+                <MenuItem 
+                  label="My trips" 
+                  onClick={() => {}}
+                />
+            </>
+          </div>
+        </div>
       )}
     </div>
   );
