@@ -37,7 +37,7 @@ const ListingReservation: React.FC<
       "
     >
       <div className="
-      flex flex-row items-center gap-1 p-4">
+      flex flex-row items-center gap-1 p-4 justify-center">
         <div className="text-2xl font-semibold">
           $ {price}
         </div>

@@ -135,6 +135,7 @@ const RentModal = () => {
       <Heading
         title="Which of these best describes your place?"
         subtitle="Pick a category"
+        center
       />
             <div 
         className="
@@ -168,6 +169,7 @@ const RentModal = () => {
         <Heading
           title="Where is your place located?"
           subtitle="Help guests find you!"
+          center
         />
         <CountrySelect 
           value={location} 
@@ -184,7 +186,8 @@ const RentModal = () => {
         <Heading
           title="Share some basics about your place"
           subtitle="What amenitis do you have?"
-        />
+        center
+       />
         <Counter 
           onChange={(value) => setCustomValue('guestCount', value)}
           value={guestCount}
@@ -215,6 +218,7 @@ const RentModal = () => {
         <Heading
           title="Add a photo of your place"
           subtitle="Show guests what your place looks like!"
+        center
         />
         <ImageUpload
           onChange={(value) => setCustomValue('imageSrc', value)}
@@ -230,6 +234,7 @@ const RentModal = () => {
         <Heading
           title="How would you describe your place?"
           subtitle="Short and sweet works best!"
+          center
         />
         <Input
           id="title"
@@ -276,7 +281,7 @@ const RentModal = () => {
   return (
     <Modal
       isOpen={rentModal.isOpen}
-      title="Airbnb your home!"
+      title="Flex your home!"
       onClose={rentModal.onClose}
       onSubmit={handleSubmit(onSubmit)}
       actionLabel={actionLabel}

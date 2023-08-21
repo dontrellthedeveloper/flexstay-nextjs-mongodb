@@ -51,6 +51,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
             flex-row 
             items-center
             gap-2
+            mx-auto
           "
         >
           <div>Hosted by {user?.name}</div>
@@ -63,6 +64,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
             gap-4 
             font-light
             text-neutral-500
+            mx-auto
           "
         >
           <div>
@@ -86,7 +88,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
       )}
       <hr />
       <div className="
-      text-lg font-light text-neutral-500">
+      text-lg font-light text-neutral-500 text-center">
         {description}
       </div>
       <hr />

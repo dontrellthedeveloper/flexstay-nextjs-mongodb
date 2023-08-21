@@ -45,6 +45,7 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
       <Heading
         title="Properties"
         subtitle="List of your properties"
+        center
       />
       <div 
         className="

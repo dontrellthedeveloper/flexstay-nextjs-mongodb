@@ -15,7 +15,7 @@ const CategoryView: React.FC<CategoryViewProps> = ({
  }) => {
   return ( 
     <div className="flex flex-col gap-6">
-      <div className="flex flex-row items-center gap-4">
+      <div className="flex flex-row items-center gap-4 mx-auto">
         <Icon size={40} className="text-neutral-600" />
         <div className="flex flex-col">
             <div 
@@ -24,7 +24,7 @@ const CategoryView: React.FC<CategoryViewProps> = ({
               {label}
             </div>
             <div 
-              className="text-neutral-500 font-light"
+              className="text-neutral-500 font-light mx-auto"
             >
               {description}
             </div>

@@ -22,6 +22,26 @@ import { usePathname, useSearchParams } from 'next/navigation';
 
 export const categories = [
     {
+      label: 'Modern',
+      icon: MdOutlineVilla,
+      description: 'This property is modern!'
+    },
+    {
+      label: 'Pools',
+      icon: TbPool,
+      description: 'This is property has a beautiful pool!'
+    },
+     {
+      label: 'Lux',
+      icon: IoDiamond,
+      description: 'This property is brand new and luxurious!'
+    },
+    {
+      label: 'Islands',
+      icon: GiIsland,
+      description: 'This property is on an island!'
+    },
+    {
       label: 'Beach',
       icon: TbBeach,
       description: 'This property is close to the beach!',
@@ -31,26 +51,13 @@ export const categories = [
       icon: GiWindmill,
       description: 'This property is has windmills!',
     },
-    {
-      label: 'Modern',
-      icon: MdOutlineVilla,
-      description: 'This property is modern!'
-    },
+
     {
       label: 'Countryside',
       icon: TbMountain,
       description: 'This property is in the countryside!'
     },
-    {
-      label: 'Pools',
-      icon: TbPool,
-      description: 'This is property has a beautiful pool!'
-    },
-    {
-      label: 'Islands',
-      icon: GiIsland,
-      description: 'This property is on an island!'
-    },
+
     {
       label: 'Lake',
       icon: GiBoatFishing,
@@ -90,12 +97,8 @@ export const categories = [
       label: 'Barns',
       icon: GiBarn,
       description: 'This property is in a barn!'
-    },
-    {
-      label: 'Lux',
-      icon: IoDiamond,
-      description: 'This property is brand new and luxurious!'
     }
+
   ]
 
 const Categories = () => {

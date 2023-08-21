@@ -44,6 +44,7 @@ const ReservationsClient: React.FC<ReservationsClientProps> = ({
       <Heading
         title="Reservations"
         subtitle="Bookings on your properties"
+        center
       />
       <div 
         className="

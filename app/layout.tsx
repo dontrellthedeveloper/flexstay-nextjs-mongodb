@@ -17,8 +17,8 @@ import SearchModal from './components/modals/SearchModal'
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AirBnb',
-  description: 'Airbnb clone',
+  title: 'FlexStay',
+  description: 'Rent your home or rent a home',
 }
 
 const font = Nunito({
@@ -35,6 +35,9 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+      <link rel="shortcut icon" href="/images/favicon.ico" />
+      </head>
       <body className={font.className}>
         <ClientOnly>
           <ToasterProvider/>
