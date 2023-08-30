@@ -19,6 +19,9 @@ import SearchModal from './components/modals/SearchModal'
 export const metadata: Metadata = {
   title: 'FlexStay',
   description: 'Rent your home or rent a home',
+  icons: {
+    icon: '/public/images/favicon.ico'
+  }
 }
 
 const font = Nunito({
