@@ -56,12 +56,12 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
+    <!-- <li>
+      <a href="#about-the-project">About The Project</a> -->
+      <!-- <ul> -->
         <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+      <!-- </ul> -->
+    <!-- </li> -->
     <li><a href="#usage">Usage</a></li>
     <li>
       <a href="#clone">Clone project</a>
@@ -78,15 +78,15 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ## About The Project -->
 
-[![Product Name Screen Shot][product-screenshot]](https://flexstay.dontrell.dev/)
+
 
 <!--
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -136,11 +136,9 @@ This is an AirBnb clone that allows you to book rentals. After booking, accurate
 
 This application also allows you to become a host. You can add new properties and track them on the properties page. The page will allow you to track all the current reservations you have. 
 
+[![Product Name Screen Shot][product-screenshot]](https://flexstay.dontrell.dev/)
 
 [![Product Name Screen Shot][product-screenshot2]](https://flexstay.dontrell.dev/)
-
-
-
 
 [![Product Name Screen Shot][product-screenshot3]](https://flexstay.dontrell.dev/)
 
